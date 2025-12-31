@@ -12,11 +12,13 @@ func _process(delta: float) -> void:
 
 
 func _on_start_pressed() -> void:
-	pass
+	print("Start pressed")
+	#get_tree().change_scene_to_file(<name of your scene>)
 
 
 func _on_options_pressed() -> void:
 	print("Options pressed")
+	#get_tree().change_scene_to_file(<name of your scene>)
 
 
 func _on_exit_pressed() -> void:

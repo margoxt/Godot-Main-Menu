@@ -1,11 +1,11 @@
 [gd_scene load_steps=9 format=3 uid="uid://bftn3umej2pjo"]
 
-[ext_resource type="Texture2D" uid="uid://xgjfdqldt3qr" path="res://mr.knight.png" id="1_7vrkn"]
-[ext_resource type="Script" uid="uid://dtv8tihmna0xn" path="res://main_menu.gd" id="1_fu7sn"]
-[ext_resource type="FontFile" uid="uid://da7lkanos40jk" path="res://GrapeSoda.ttf" id="2_fu7sn"]
+[ext_resource type="Script" uid="uid://dtv8tihmna0xn" path="res://assets/main_menu.gd" id="1_bqqt6"]
+[ext_resource type="Texture2D" uid="uid://xgjfdqldt3qr" path="res://assets/mr.knight.png" id="2_wu84c"]
+[ext_resource type="FontFile" uid="uid://da7lkanos40jk" path="res://assets/GrapeSoda.ttf" id="3_8ln24"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jix8l"]
-texture = ExtResource("1_7vrkn")
+texture = ExtResource("2_wu84c")
 modulate_color = Color(0.5649617, 0.5649616, 0.5649616, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06t4h"]
@@ -41,7 +41,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_fu7sn")
+script = ExtResource("1_bqqt6")
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 1
@@ -124,7 +124,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0.19564426, 0.14712042, 0.115931384, 1)
 theme_override_constants/shadow_offset_y = 12
-theme_override_fonts/font = ExtResource("2_fu7sn")
+theme_override_fonts/font = ExtResource("3_8ln24")
 theme_override_font_sizes/font_size = 88
 text = "Mr. Knight's Adventure"
 horizontal_alignment = 1
