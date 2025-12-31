@@ -37,10 +37,9 @@ The main goals of this project are to:
 
 ## 📚 Reference & Learning Resources
 
-- Coco Code YouTube Channel  
-  [https://www.youtube.com/@Brackeys](https://youtu.be/zHYkcJyE52g?si=Fdr-62_ceXSu_HRW)
+- Coco Code YouTube Channel: [https://www.youtube.com/@Brackeys](https://youtu.be/zHYkcJyE52g?si=Fdr-62_ceXSu_HRW)
 
 ---
 
-## 🎮 Game Preview
-
+## 🎮 Menu Game Preview
+![assets](https://github.com/margoxt/Godot-Main-Menu/blob/6b7e81cdee900205133d43f09d92680278281575/assets/screenshot/main_menu_ss.png)
